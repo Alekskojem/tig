@@ -33,7 +33,7 @@ services:
       - monitoring  # Connect the second Telegraf container to the monitoring network
 
   nginx:
-    image: nginx:alpine
+    image: nginx:1.29.1-alpine
     container_name: nginx
     restart: always
     volumes:
